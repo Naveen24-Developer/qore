@@ -1,0 +1,6 @@
+{
+  "name": "QORE",
+  "description": "Premium Creative, Marketing & Technology Systems for Startups. Build from the core.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
