@@ -45,15 +45,7 @@ export const featuredWork: WorkItem[] = [
     glowColor: "rgba(166, 255, 77, 0.4)", // neon green glow
     tags: ["Visual Identity", "3D Render", "Interaction"],
   },
-  {
-    id: "alto",
-    title: "alto",
-    category: "FOUNDER STORY",
-    description: "Human-centric narrative design for an AI cloud startup, leading to $12M Series A funding.",
-    imageUrl: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=800",
-    glowColor: "rgba(139, 92, 246, 0.6)",
-    tags: ["Speech Writing", "Short Film", "Color Grade"],
-  },
+
   {
     id: "aarav boutique",
     title: "AARAV BOUTIQUE",

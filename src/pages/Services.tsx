@@ -161,7 +161,7 @@ export default function Services() {
               <span className="h-[1px] w-6 bg-neon-purple" />
             </div>
             <h2 className="text-3xl sm:text-5xl font-display font-bold uppercase tracking-tight">
-              HOW WE <span className="text-transparent text-stroke-white select-none">WORK.</span>
+              HOW WE <span className="text-transparent text-stroke-white glow-purple tracking-wide">WORK.</span>
             </h2>
           </div>
 
@@ -208,7 +208,7 @@ export default function Services() {
           </div>
           <h2 className="text-4xl sm:text-6xl font-display font-extrabold uppercase tracking-tight mb-4 leading-tight text-white">
             LET'S CONFIGURE YOUR <br />
-            <span className="text-transparent text-stroke-white select-none">SYSTEM.</span>
+            <span className="text-transparent text-stroke-white glow-purple tracking-wide">SYSTEM.</span>
           </h2>
           <p className="text-secondary-gray text-base max-w-lg mb-10 leading-relaxed font-sans">
             Scale your content consistency, refine your digital aesthetic staging, and launch with cinematic vertical impact.

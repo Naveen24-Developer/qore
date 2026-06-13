@@ -134,7 +134,7 @@ ${data.details.trim() || "No additional details provided."}
         </div>
         <h1 className="text-4xl sm:text-6xl font-display font-black uppercase tracking-tight leading-none mb-6">
           LET'S BUILD YOUR BRAND <br />
-          FROM <span className="text-transparent text-stroke-white select-none">THE CORE.</span>
+          FROM <span className="text-transparent text-stroke-white glow-purple tracking-wide">THE CORE.</span>
         </h1>
         <p className="text-secondary-gray text-base sm:text-lg leading-relaxed max-w-2xl font-sans font-medium text-white/55">
           Tell us about your startup, goals, and vision. We'll help you configure a premium brand experience designed to perform.
@@ -442,7 +442,7 @@ ${data.details.trim() || "No additional details provided."}
       {/* ────────────────────────────────────────────────────────
           3. EXTRA DISCOVERY CALL CALENDAR CTA
          ──────────────────────────────────────────────────────── */}
-      <section className="max-w-7xl mx-auto px-6 sm:px-8 py-24 relative z-10">
+      {/* <section className="max-w-7xl mx-auto px-6 sm:px-8 py-24 relative z-10">
         <div className="bg-gradient-to-r from-indigo-950/10 via-black to-[#050505] border border-white/10 p-8 sm:p-12 flex flex-col md:flex-row items-center justify-between gap-8 rounded-none relative">
           <div className="absolute top-3 left-3 w-1.5 h-1.5 border-t border-l border-white/20" />
           <div className="absolute bottom-3 right-3 w-1.5 h-1.5 border-b border-r border-white/20" />
@@ -474,7 +474,7 @@ ${data.details.trim() || "No additional details provided."}
             <div className="absolute inset-0 z-0 bg-accent-green origin-left scale-x-0 transition-transform duration-500 ease-out group-hover:scale-x-100" />
           </a>
         </div>
-      </section>
+      </section> */}
     </motion.div>
   );
 }

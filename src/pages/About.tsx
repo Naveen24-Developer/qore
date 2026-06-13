@@ -10,6 +10,9 @@ import { statsList } from "../data";
 import TahrSymbol from "../components/TahrSymbol";
 import Logo from "../assets/Qore-Q-Logo.png";
 import Sign from "../assets/Founder-Sign.png";
+import SaturnLogo from "../assets/Saturn-Logo.png";
+import QoreLogo from "../assets/QORE-Logo.png";
+
 export default function About() {
   const whyQoreBullets = [
     "Minimal but impactful design styling",
@@ -56,6 +59,9 @@ export default function About() {
         </div>
 
 {/* Hero Image Side Concept (The Tahr Mascot with Logo Overlay) */}
+        {/* Minimal counter-clockwise spin keyframes for logo */}
+        <style>{`@keyframes spin-ccw { from { transform: rotate(0deg); } to { transform: rotate(-360deg); } } .spin-ccw { animation: spin-ccw 12s linear infinite; transform-origin: center; }`}</style>
+
         <motion.div
           initial={{ opacity: 0, scale: 0.9, rotate: -2 }}
           animate={{ opacity: 1, scale: 1, rotate: 0 }}
@@ -85,11 +91,11 @@ export default function About() {
               {/* Logo Frame Border */}
               <div className="absolute inset-0 rounded-full border border-accent-green/30 shadow-[0_0_40px_rgba(166,255,77,0.1)]" />
 
-              {/* Logo Image */}
+               {/* Logo Image */}
               <img
-                src={Logo}
-                alt="QORE Logo"
-                className="w-full h-auto relative z-10 drop-shadow-[0_8px_16px_rgba(0,0,0,0.4)]"
+                src={SaturnLogo}
+                alt="QORE"
+                className="w-full h-auto relative z-10 drop-shadow-[0_8px_16px_rgba(0,0,0,0.4)] spin-ccw"
               />
             </motion.div>
           </div>
@@ -198,21 +204,18 @@ export default function About() {
               <div className="absolute bottom-2 left-2 w-1.5 h-1.5 border-b border-l border-white/40" />
               <div className="absolute bottom-2 right-2 w-1.5 h-1.5 border-b border-r border-white/40" />
 
-              <div className="relative z-10 text-[9px] font-mono tracking-widest text-secondary-gray uppercase flex justify-between items-center bg-black/40 px-3 py-1.5 border border-white/10">
-                <span>PROJECT STATION 01</span>
-                <span className="w-2 h-2 rounded-full bg-accent-green glow-green" />
-              </div>
+              
               
               {/* Minimal geometric desk mockup */}
               <div className="relative z-10 w-full flex flex-col items-center gap-2 opacity-60 group-hover:opacity-100 transition-opacity duration-300">
-                <div className="text-xl font-display font-light text-center tracking-[0.25em] text-white">QORE WORKSPACE</div>
-                <div className="w-1/3 h-[2px] bg-accent-green glow-green" />
+                <img
+                  src={QoreLogo}
+                  alt="QORE"
+                  className="w-full h-auto relative z-10 drop-shadow-[0_8px_16px_rgba(0,0,0,0.4)]"
+                />
               </div>
 
-              <div className="relative z-10 flex justify-between items-baseline text-xs font-mono text-secondary-gray">
-                <span>CRAFTED PRIVATELY</span>
-                <span>UTC+0</span>
-              </div>
+              
             </div>
 
             <div className="lg:col-span-7 flex flex-col items-start">
@@ -254,7 +257,7 @@ export default function About() {
               </span>
             </div>
             <h2 className="text-3xl sm:text-5xl font-display font-bold uppercase tracking-tight">
-              PERFORMANCE IN <span className="text-transparent text-stroke-white">NUMBERS.</span>
+              PERFORMANCE IN <span className="text-transparent text-stroke-white glow-purple tracking-wide">NUMBERS.</span>
             </h2>
           </div>
 

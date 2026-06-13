@@ -28,7 +28,7 @@ export default function Work() {
     };
   }, [selectedProject]);
 
-  const categories = ["ALL", "BRAND FILM", "PRODUCT LAUNCH", "FOUNDER STORY", "SOCIAL CAMPAIGN"];
+  const categories = ["ALL", "BRAND FILM", "PRODUCT LAUNCH", "SOCIAL CAMPAIGN"];
 
   // Map filters to content query
   const filteredWork = activeFilter === "ALL"
@@ -69,7 +69,7 @@ export default function Work() {
           </span>
         </div>
         <h1 className="text-4xl sm:text-6xl font-display font-black uppercase tracking-tight leading-none mb-6">
-          IDEAS. <span className="text-transparent text-stroke-white select-none">DESIGNED.</span> <br />
+          IDEAS. <span className="text-transparent text-stroke-white glow-purple tracking-wide">DESIGNED.</span> <br />
           EDITED. DELIVERED.
         </h1>
         <p className="text-secondary-gray text-base sm:text-lg leading-relaxed max-w-2xl font-sans">
@@ -292,7 +292,7 @@ export default function Work() {
               </span>
             </div>
             <h2 className="text-3xl sm:text-5xl font-display font-medium uppercase tracking-tight">
-              CLIENT <span className="text-transparent text-stroke-white select-none">DIRECTORY.</span>
+              CLIENT <span className="text-transparent text-stroke-white glow-purple tracking-wide">DIRECTORY.</span>
             </h2>
           </div>
 

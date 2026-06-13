@@ -10,6 +10,7 @@ import { ArrowUpRight, ArrowRight, Play, Cpu, Heart, Sparkles, Flame, ShieldChec
 import { clientLogos, featuredWork, servicesList, statsList } from "../data";
 import TahrSymbol from "../components/TahrSymbol";
 import QLogo from "../assets/Qore-Q-Logo.png";
+import SaturnLogo from "../assets/Saturn-Logo.png"
 
 // Stagger child animation helper
 const containerVariants = {
@@ -108,6 +109,9 @@ export default function Home() {
         </motion.div>
 
         {/* Hero Image Side Concept (The Tahr Mascot with Logo Overlay) */}
+        {/* Minimal counter-clockwise spin keyframes for logo */}
+        <style>{`@keyframes spin-ccw { from { transform: rotate(0deg); } to { transform: rotate(-360deg); } } .spin-ccw { animation: spin-ccw 12s linear infinite; transform-origin: center; }`}</style>
+
         <motion.div
           initial={{ opacity: 0, scale: 0.9, rotate: -2 }}
           animate={{ opacity: 1, scale: 1, rotate: 0 }}
@@ -139,9 +143,9 @@ export default function Home() {
 
               {/* Logo Image */}
               <img
-                src={QLogo}
-                alt="QORE Logo"
-                className="w-full h-auto relative z-10 drop-shadow-[0_8px_16px_rgba(0,0,0,0.4)]"
+                src={SaturnLogo}
+                alt="QORE"
+                className="w-full h-auto relative z-10 drop-shadow-[0_8px_16px_rgba(0,0,0,0.4)] spin-ccw"
               />
             </motion.div>
           </div>
@@ -222,7 +226,7 @@ export default function Home() {
             </span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-display font-bold uppercase tracking-tight leading-[1.0] mb-4 text-white">
-            A GROWTH & TECHNOLOGY PARTNER FOR <span className="text-transparent text-stroke-white inline-block">STARTUPS.</span>
+            A GROWTH & TECHNOLOGY PARTNER FOR <span className="text-transparent text-stroke-white glow-purple tracking-wide">STARTUPS.</span>
           </h2>
           <p className="text-secondary-gray text-base leading-relaxed mb-4">
             QORE helps modern startups build unforgettable digital presence through cinematic video editing, strategic brand staging, and custom technology solutions.
@@ -253,7 +257,7 @@ export default function Home() {
               </span>
             </div>
             <h2 className="text-3xl sm:text-5xl font-display font-bold uppercase tracking-tight">
-              CREATIVE SYSTEMS THAT DRIVE <span className="text-transparent text-stroke-white">GROWTH.</span>
+              CREATIVE SYSTEMS THAT DRIVE <span className="text-transparent text-stroke-white glow-purple tracking-wide">GROWTH.</span>
             </h2>
           </div>
 
@@ -307,7 +311,7 @@ export default function Home() {
               </span>
             </div>
             <h2 className="text-3xl sm:text-5xl font-display font-bold uppercase tracking-tight">
-              IDEAS. <span className="text-transparent text-stroke-white">DESIGNED.</span> BUILT. DELIVERED.
+              IDEAS. <span className="text-transparent text-stroke-white glow-purple tracking-wide">DESIGNED.</span> BUILT. DELIVERED.
             </h2>
             <p className="text-secondary-gray text-sm mt-3 font-mono">
               Real startup visuals. Real growth-focused execution.
@@ -385,7 +389,7 @@ export default function Home() {
                 </span>
               </div>
               <h2 className="text-3xl sm:text-5xl font-display font-bold uppercase tracking-tight mb-6">
-                BUILT SPECIFICALLY FOR <span className="text-transparent text-stroke-white">STARTUPS.</span>
+                BUILT SPECIFICALLY FOR <span className="text-transparent text-stroke-white glow-purple tracking-wide">STARTUPS.</span>
               </h2>
               <p className="text-secondary-gray text-sm leading-relaxed mb-8">
                 Early-stage ecosystems require extreme speed, aesthetic leverage, and cross-platform flexibility. Here is how we configure success.
@@ -455,10 +459,10 @@ export default function Home() {
                 <div className="absolute inset-0 rounded-full bg-black/40" />
                 <div className="absolute inset-0 rounded-full border border-accent-green/30 shadow-[0_0_30px_rgba(166,255,77,0.25)]" />
                 <img
-                  src={QLogo}
-                  alt="QORE Logo"
-                  className="relative w-full h-full object-contain  p-2"
-                />
+                src={SaturnLogo}
+                alt="QORE"
+                className="w-full h-auto relative z-10 drop-shadow-[0_8px_16px_rgba(0,0,0,0.4)] spin-ccw"
+              />
               </div>
             </div>
           </div>
@@ -471,7 +475,7 @@ export default function Home() {
             <span className="h-[1px] w-8 bg-accent-green" />
           </div>
           <h2 className="text-4xl sm:text-6xl font-display font-extrabold uppercase tracking-tight mb-4 text-white leading-none">
-            READY TO BUILD <br /> SOMETHING <span className="text-transparent text-stroke-white">ICONIC?</span>
+            READY TO BUILD <br /> SOMETHING <span className="text-transparent text-stroke-white glow-purple tracking-wide">ICONIC?</span>
           </h2>
           <p className="text-secondary-gray text-base max-w-lg mb-10 leading-relaxed font-sans">
             Let's create a brand people remember. Partner with QORE to elevate your startup's aesthetic impact.

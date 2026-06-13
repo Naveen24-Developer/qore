@@ -75,8 +75,8 @@ export default function Footer() {
             <ul className="space-y-3 sm:space-y-4 text-xs sm:text-sm text-center sm:text-left text-secondary-gray font-sans">
               <li className="flex flex-col sm:flex-row items-center sm:items-center gap-2 sm:gap-3">
                 <Mail className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-accent-green shrink-0" />
-                <a href="mailto:hello@qorestudio.com" className="hover:text-white transition-colors break-all sm:break-normal">
-                  hello@qorestudio.com
+                <a href="mailto:hello@qore.com" className="hover:text-white transition-colors break-all sm:break-normal">
+                  hello@qore.com
                 </a>
               </li>
               <li className="flex flex-col sm:flex-row items-center sm:items-center gap-2 sm:gap-3">
