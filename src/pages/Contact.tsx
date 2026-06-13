@@ -77,13 +77,14 @@ ${data.details.trim() || "No additional details provided."}
 
     // Encode message for WhatsApp URL
     const encodedMessage = encodeURIComponent(message);
-    const phoneNumber = "+91 8825869121";
+    const phoneNumber = "+91 9443774834";
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
     
     // Open WhatsApp in new tab
     window.open(whatsappUrl, "_blank");
   };
 
+  
   const handleFormSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setErrorMsg("");
