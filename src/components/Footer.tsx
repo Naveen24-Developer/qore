@@ -82,7 +82,7 @@ export default function Footer() {
               <li className="flex flex-col sm:flex-row items-center sm:items-center gap-2 sm:gap-3">
                 <Instagram className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-accent-green shrink-0" />
                 <a href="https://www.instagram.com/theqore.in?igsh=Yzk5M2I2aXdvOHhw" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">
-                  @qorestudios.in
+                  theqore.in
                 </a>
               </li>
               <li className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-3">
