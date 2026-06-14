@@ -5,8 +5,8 @@
 
 import { WorkItem, ServiceItem, StatItem, ProcessStep, FAQItem } from "./types";
 import Saturn from "./assets/Client-Saturn.png";
-import Butterfly from "./assets/Client-Happiee-Hearts-logo.png";
-import ZvloA from "./assets/Client-GOLD-TRANSPARENT.png";
+import HappieeHearts from "./assets/Client-Happiee-Hearts-logo.png";
+import ZYLOQ from "./assets/Client-GOLD-TRANSPARENT.png";
 import JawaVideo from "./video/Jawa.mp4";
 import Jawaimg from "./assets/Jawaimg.png";
 import Iphone from "./assets/Iphone.jpeg";
@@ -16,8 +16,8 @@ import Ponkali from "./assets/ponkali.png";
 
 export const clientLogos = [
   { name: "SATURN STUDIO", type: "image", imageUrl: Saturn },
-  { name: "BUTTERFLY", type: "image", imageUrl: Butterfly },
-  { name: "ZVLOA", type: "image", imageUrl: ZvloA },
+  { name: "HEAPPIEE HEARTS", type: "image", imageUrl: HappieeHearts },
+  { name: "ZYLOQ", type: "image", imageUrl: ZYLOQ },
   { name: "DIGISTAT", type: "image", imageUrl: Digistat },
   { name: "PONKALI", type: "image", imageUrl: Ponkali },
 ];

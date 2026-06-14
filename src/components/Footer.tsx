@@ -81,7 +81,7 @@ export default function Footer() {
               </li>
               <li className="flex flex-col sm:flex-row items-center sm:items-center gap-2 sm:gap-3">
                 <Instagram className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-accent-green shrink-0" />
-                <a href="https://instagram.com/qorestudios.in?igsh=MmN5NXA1dWdsZXZ1" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">
+                <a href="https://www.instagram.com/theqore.in?igsh=Yzk5M2I2aXdvOHhw" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">
                   @qorestudios.in
                 </a>
               </li>
@@ -101,7 +101,7 @@ export default function Footer() {
             </h4>
             <div className="flex gap-3 sm:gap-4">
               <a
-                href="https://instagram.com/qorestudios.in?igsh=MmN5NXA1dWdsZXZ1"
+                href="https://www.instagram.com/theqore.in?igsh=Yzk5M2I2aXdvOHhw"
                 target="_blank"
                 rel="noreferrer"
                 className="w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 rounded-none border border-white/10 flex items-center justify-center text-secondary-gray hover:border-accent-green hover:text-accent-green transition-all duration-300"
@@ -119,7 +119,7 @@ export default function Footer() {
                 <Linkedin className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
               </a>
               <a
-                href="https://qorestudio.com"
+                href="/"
                 target="_blank"
                 rel="noreferrer"
                 className="w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 rounded-none border border-white/10 flex items-center justify-center text-secondary-gray hover:border-accent-green hover:text-accent-green transition-all duration-300"

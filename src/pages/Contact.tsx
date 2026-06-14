@@ -84,7 +84,7 @@ ${data.details.trim() || "No additional details provided."}
     window.open(whatsappUrl, "_blank");
   };
 
-  
+
   const handleFormSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setErrorMsg("");
@@ -362,7 +362,7 @@ ${data.details.trim() || "No additional details provided."}
                       INSTAGRAM PROFILE
                     </span>
                     <a
-                      href="https://instagram.com/qorestudios.in?igsh=MmN5NXA1dWdsZXZ1"
+                      href="https://www.instagram.com/theqore.in?igsh=Yzk5M2I2aXdvOHhw"
                       target="_blank"
                       rel="noreferrer"
                       className="block text-white group-hover:text-accent-green font-medium text-sm sm:text-base transition-colors"
