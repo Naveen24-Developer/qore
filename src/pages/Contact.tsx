@@ -367,7 +367,7 @@ ${data.details.trim() || "No additional details provided."}
                       rel="noreferrer"
                       className="block text-white group-hover:text-accent-green font-medium text-sm sm:text-base transition-colors"
                     >
-                      @qorestudios.in
+                      theqore.in
                     </a>
                   </div>
                 </div>
